@@ -1,0 +1,184 @@
+[
+  {
+    "id": "PM_AWAS",
+    "name": "PM Awas Yojana (PMAY)",
+    "hindi_name": "प्रधानमंत्री आवास योजना",
+    "category": "Housing",
+    "ministry": "MoHUA",
+    "description": "Affordable housing for urban/rural poor. Subsidy on home loans.",
+    "eligibility": {
+      "income_max_lpa": 18,
+      "age_min": 18,
+      "beneficiary": "EWS/LIG/MIG families",
+      "asset": "No pucca house"
+    },
+    "benefit": "Subsidy up to ₹2.67 lakh on home loan",
+    "url": "https://pmaymis.gov.in"
+  },
+  {
+    "id": "MGNREGS",
+    "name": "MGNREGA",
+    "hindi_name": "मनरेगा",
+    "category": "Employment",
+    "ministry": "MoRD",
+    "description": "100 days guaranteed wage employment per year for rural households.",
+    "eligibility": {
+      "age_min": 18,
+      "location": "Rural",
+      "work_type": "Manual labour"
+    },
+    "benefit": "100 days employment @ ₹220-350/day (state-wise)",
+    "url": "https://nrega.nic.in"
+  },
+  {
+    "id": "PM_JAN",
+    "name": "PM Jan Dhan Yojana",
+    "hindi_name": "प्रधानमंत्री जन धन योजना",
+    "category": "Banking",
+    "ministry": "MoF",
+    "description": "Zero-balance bank account with RuPay debit card and ₹2 lakh accident insurance.",
+    "eligibility": {
+      "age_min": 10,
+      "documents": "Aadhaar/PAN/Voter ID"
+    },
+    "benefit": "Free bank account + ₹2L accident cover + ₹30K life cover",
+    "url": "https://pmjdy.gov.in"
+  },
+  {
+    "id": "AYUSHMAN",
+    "name": "Ayushman Bharat PM-JAY",
+    "hindi_name": "आयुष्मान भारत",
+    "category": "Health",
+    "ministry": "MoHFW",
+    "description": "Health insurance cover of ₹5 lakh per family per year for secondary/tertiary care.",
+    "eligibility": {
+      "income_max_lpa": 2.5,
+      "secc": "Listed in SECC 2011 database",
+      "family_size": "Any"
+    },
+    "benefit": "₹5 lakh/family/year health cover at empanelled hospitals",
+    "url": "https://pmjay.gov.in"
+  },
+  {
+    "id": "PM_KISAN",
+    "name": "PM Kisan Samman Nidhi",
+    "hindi_name": "पीएम किसान",
+    "category": "Agriculture",
+    "ministry": "MoA",
+    "description": "Direct income support of ₹6,000/year to small and marginal farmers.",
+    "eligibility": {
+      "occupation": "Farmer",
+      "land_holding_max_acres": 5,
+      "documents": "Land record + Aadhaar"
+    },
+    "benefit": "₹6,000/year in 3 instalments",
+    "url": "https://pmkisan.gov.in"
+  },
+  {
+    "id": "NIRBHAYA",
+    "name": "Nirbhaya Fund Schemes",
+    "hindi_name": "निर्भया फंड",
+    "category": "Women Safety",
+    "ministry": "MoWCD",
+    "description": "Multiple schemes for safety, rehabilitation of women survivors of violence.",
+    "eligibility": {
+      "gender": "Female",
+      "situation": "Survivor of sexual/domestic violence"
+    },
+    "benefit": "Legal aid, rehabilitation, one-stop centres, helpline 181",
+    "url": "https://wcd.nic.in"
+  },
+  {
+    "id": "SAKSHAM",
+    "name": "Saksham Yojana (Divyang)",
+    "hindi_name": "सक्षम योजना",
+    "category": "Disability",
+    "ministry": "MoSJE",
+    "description": "Scholarship and assistance for differently-abled students.",
+    "eligibility": {
+      "disability_pct_min": 40,
+      "age_max": 25,
+      "education": "Post-matric"
+    },
+    "benefit": "Scholarship ₹3,500-₹38,500/year based on course",
+    "url": "https://scholarships.gov.in"
+  },
+  {
+    "id": "PM_MUDRA",
+    "name": "PM MUDRA Yojana",
+    "hindi_name": "मुद्रा योजना",
+    "category": "MSME/Business",
+    "ministry": "MoF",
+    "description": "Collateral-free loans for small businesses and entrepreneurs.",
+    "eligibility": {
+      "business_type": "Non-farm enterprise",
+      "loan_max_lakh": 20
+    },
+    "benefit": "Loans: Shishu (≤50K), Kishore (50K-5L), Tarun (5L-20L)",
+    "url": "https://mudra.org.in"
+  },
+  {
+    "id": "SUKANYA",
+    "name": "Sukanya Samriddhi Yojana",
+    "hindi_name": "सुकन्या समृद्धि योजना",
+    "category": "Girl Child",
+    "ministry": "MoF",
+    "description": "Savings scheme for girl child with higher interest rate and tax benefits.",
+    "eligibility": {
+      "gender": "Female",
+      "age_max": 10
+    },
+    "benefit": "8.2% interest, tax-free, maturity at age 21",
+    "url": "https://ssymis.gov.in"
+  },
+  {
+    "id": "UJJWALA",
+    "name": "PM Ujjwala Yojana",
+    "hindi_name": "उज्ज्वला योजना",
+    "category": "LPG/Energy",
+    "ministry": "MoPNG",
+    "description": "Free LPG connection to women from BPL households.",
+    "eligibility": {
+      "gender": "Female",
+      "income": "BPL household",
+      "no_lpg": true
+    },
+    "benefit": "Free LPG connection + first cylinder",
+    "url": "https://pmuy.gov.in"
+  },
+  {
+    "id": "SCHOLARSHIP_SC",
+    "name": "Post-Matric Scholarship (SC/ST)",
+    "hindi_name": "अनुसूचित जाति/जनजाति छात्रवृत्ति",
+    "category": "Education",
+    "ministry": "MoSJE/MoTA",
+    "description": "Scholarship for SC/ST students pursuing post-matric education.",
+    "eligibility": {
+      "caste": "SC or ST",
+      "income_max_lpa": 2.5,
+      "education": "Post-matric"
+    },
+    "benefit": "Full tuition + maintenance allowance",
+    "url": "https://scholarships.gov.in"
+  },
+  {
+    "id": "LEGAL_AID",
+    "name": "National Legal Services Authority (NALSA)",
+    "hindi_name": "राष्ट्रीय विधिक सेवा प्राधिकरण",
+    "category": "Legal Aid",
+    "ministry": "MoLJ",
+    "description": "Free legal services to marginalized citizens.",
+    "eligibility": {
+      "any": [
+        "SC/ST",
+        "Woman",
+        "Child",
+        "Disabled",
+        "Income below ₹3L/year",
+        "Victim of disaster/trafficking"
+      ]
+    },
+    "benefit": "Free lawyer, legal advice, Lok Adalat access",
+    "url": "https://nalsa.gov.in"
+  }
+]
